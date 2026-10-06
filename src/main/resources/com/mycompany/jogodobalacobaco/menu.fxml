@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.geometry.Insets?>
+
+<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.jogodobalacobaco.MenuController">
+    
+    <ImageView fitWidth="640" fitHeight="480" preserveRatio="false">
+        <image>
+            <Image url="@imagens/menu.gif" />
+        </image>
+    </ImageView>
+    
+    <VBox alignment="CENTER">
+        <children>
+            
+            <StackPane maxWidth="320.0" maxHeight="380.0">
+                 <children>
+                    
+                    <Region style="-fx-background-color: rgba(0,0,0,0.4); -fx-background-radius: 15px; -fx-border-color: rgba(255,255,255,0.35);; -fx-border-radius: 15px; -fx-border-width: 1.5px;">
+                       <effect>
+                          <DropShadow radius="15.0" color="rgba(0,0,0,0.3)" />
+                       </effect>
+                    </Region>
+                    
+                    <VBox alignment="CENTER" spacing="15.0">
+                       <padding>
+                          <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+                       </padding>
+                       <children>
+                          <Label text="Menu Principal" style="-fx-font-weight: bold; -fx-font-size: 20px; -fx-text-fill: #FFFFFF; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 1);" />
+                          <Button fx:id="IniciarJogo" text="Iniciar Jogo" onAction="#selecaoDeHistoria" prefWidth="180.0" />
+                          <Button fx:id="Ranking" text="Ranking" onAction="#ranking" prefWidth="180.0" />
+                          <Button fx:id="Creditos" text="Créditos" onAction="#creditos" prefWidth="180.0" />
+                          <Button fx:id="Config" text="Configuração" onAction="#config" prefWidth="180.0" />
+                          <Button fx:id="Sair" text="Fechar" onAction="#fechar" prefWidth="180.0" />
+                       </children>
+                    </VBox>
+                    
+                 </children>
+            </StackPane>
+            
+        </children>
+    </VBox>
+    
+</StackPane>
