@@ -20,7 +20,7 @@
     
     <VBox alignment="CENTER">
         <children>
-            
+          
             <StackPane maxWidth="320.0" maxHeight="380.0">
                  <children>
                     

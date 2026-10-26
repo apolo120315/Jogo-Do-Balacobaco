@@ -11,7 +11,7 @@
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.geometry.Insets?>
 
-<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.jogodobalacobaco.SelecaoHistoriaController">
+<StackPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.jogodobalacobaco.SelecaoHistoriaController"> <!-- Plano De Fundo -->
     
     <ImageView fitWidth="640" fitHeight="480" preserveRatio="false">
         <image>
