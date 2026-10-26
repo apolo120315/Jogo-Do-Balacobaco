@@ -37,13 +37,11 @@
                        <children>
                           <Label text="Ranking" style="-fx-font-weight: bold; -fx-font-size: 20px; -fx-text-fill: #FFFFFF; -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5, 0, 0, 1);" />
                           <Button fx:id="Voltar" text="Voltar" onAction="#voltarAoMenu" prefWidth="180.0" />
-
                        </children>
                     </VBox>
                     
                  </children>
             </StackPane>
-            
         </children>
     </VBox>
 </StackPane>
